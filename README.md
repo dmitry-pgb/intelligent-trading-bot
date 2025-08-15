@@ -135,23 +135,3 @@ The service will periodically (for example, every minute) execute these tasks:
 * Aggregate the results of forecasting produced by different ML models and compute the final signal score which reflects the strength of the upward or downward trend. Here we use many previously computed scores as inputs and derive one output score. 
 * Execute functions for interacting with external systems, for example, by sending notifications to a Telegram channel. It is also possible to configure a real trader which will execute buy or sell transactions
 
-# Related projects
-
-- https://github.com/CryptoSignal/Crypto-Signal Github.com/CryptoSignal - #1 Quant Trading & Technical Analysis Bot
-- https://github.com/tensortrade-org/tensortrade An open source reinforcement learning framework for training, evaluating, and deploying robust trading agents
-- https://github.com/Superalgos/Superalgos Free, open-source crypto trading bot, automated bitcoin / cryptocurrency trading software, algorithmic trading bots. Visually design your crypto trading bot, leveraging an integrated charting system, data-mining, backtesting, paper trading, and multi-server crypto bot deployments
-- https://github.com/kieran-mackle/AutoTrader A Python-based development platform for automated trading systems - from backtesting to optimisation to livetrading
-- https://github.com/areed1192/python-trading-robot A trading robot, that can submit basic orders in an automated fashion using the TD API
-- https://github.com/jmrichardson/tuneta Intelligently optimizes technical indicators and optionally selects the least intercorrelated for use in machine learning models
-- https://github.com/Erfaniaa/binance-futures-trading-bot Easy-to-use multi-strategic automatic trading for Binance Futures with Telegram integration
-- https://github.com/smileinnovation/cryptocurrency-trading How to make profits in cryptocurrency trading with machine learning
-
-Backtesting
-- https://github.com/nautechsystems/nautilus_trader
-- https://github.com/mementum/backtrader
-- https://github.com/kernc/backtesting.py
-
-External integrations
-- https://github.com/ccxt/ccxt A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
-- https://github.com/aiogram/aiogram Is a pretty simple and fully asynchronous framework for Telegram Bot API
-- https://github.com/sammchardy/python-binance
